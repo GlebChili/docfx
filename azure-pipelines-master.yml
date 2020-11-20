@@ -40,6 +40,8 @@ steps:
     Pattern: |
         **\Microsoft.DocAsCode.*.dll
         **\*.exe
+        **\*.ps1
+        **\*.js
     UseMinimatch: true
     signConfigType: inlineSignParams
     inlineOperation: |
